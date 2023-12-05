@@ -1,5 +1,5 @@
-roboflow
 ultralytics==8.0.196
+roboflow
 ipykernel
 pandas
 numpy

@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+# setup
 with open("requirements.txt", "r") as file:
     lines = file.readlines()
 reqs = [each.strip() for each in lines]
