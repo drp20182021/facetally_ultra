@@ -1,4 +1,4 @@
-from facetally.data.load.roboflow_load import load_data_from_roboflow
+from facetally.data.roboflow_load import load_data_from_roboflow
 from facetally.mllogic.train import train_model
 from facetally.params import *
 
