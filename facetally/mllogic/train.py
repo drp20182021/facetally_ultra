@@ -6,7 +6,7 @@ from comet_ml import API
 
 
 # Function to train the model
-def train_model(epochs: int = 10, img_size: int = 620):
+def train_model(epochs: int = 10, img_size: int = 640):
     # Initialize Comet ML API connection
     api = API()
     comet_ml.init()
@@ -42,6 +42,7 @@ def train_model(epochs: int = 10, img_size: int = 620):
     # If loading pretrained weights fails, initialize a new model
     except Exception as error:
         print(f"❌ Could not load weights: {error}")
+        print(LOCAL_DATA_PATH)
 
         # Initialize a new YOLO model with default weights
         model = YOLO("yolov8n.pt")
