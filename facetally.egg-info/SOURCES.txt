@@ -1,0 +1,8 @@
+setup.py
+facetally/__init__.py
+facetally/params.py
+facetally.egg-info/PKG-INFO
+facetally.egg-info/SOURCES.txt
+facetally.egg-info/dependency_links.txt
+facetally.egg-info/requires.txt
+facetally.egg-info/top_level.txt
